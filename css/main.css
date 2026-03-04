@@ -103,10 +103,8 @@ footer {
   border-radius: 10px;
 }
 
-.info-album video{
-  width: 30%;
-  border-radius: 10px;
-}
+
+
 
 @media (max-width: 768px) {
     .info-album {
@@ -133,5 +131,30 @@ footer {
     }
 }
 
+.artista {
+    width: 30%;
+    text-align: center;
+    background: #f8f9fa; 
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+}
 
 
+.artista img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px; 
+    margin-bottom: 15px;
+   
+
+}
+
+@media (max-width: 768px) {
+    .artista {
+        width: 100%;       
+        margin-bottom: 20px; 
+        display: block;  
+    }
+}
