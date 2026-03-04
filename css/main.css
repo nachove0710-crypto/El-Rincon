@@ -1,16 +1,11 @@
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
+   background-color: #aaaaaa;
+   color: #000000;
 }
-
 header {
 text-align: center;
 display: flex;
 flex-direction: column;
-background-color:#f8f9fa
 }   
 
 section{
@@ -24,18 +19,20 @@ display: flex;
 .album {
     width: 30%;
     text-align: center;
-    background: #f8f9fa; 
     padding: 15px;
     box-sizing: border-box;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    background: #ffffff;
+  border-radius: 20px;
 }
+
 
 
 .album img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 4px; 
+    border-radius: 20px; 
     margin-bottom: 15px;
    
 
@@ -52,10 +49,10 @@ display: flex;
 .comentarios {
 text-align: center;
     padding: 40px 20px;
-    background-color:#f8f9fa; 
+
     margin: 0 auto;  
 font-size: 1.2rem;
-    color: #444;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -63,14 +60,14 @@ font-size: 1.2rem;
     width: 80%;
     height: 100px;
     padding: 15px;
-    border: 2px solid #f8f9fa;
+    border: 2px solid #000000;
     border-radius: 20px;
 } 
 
 .comentarios button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #ffffff;
+    background-color: #7c7c7c;
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
@@ -78,29 +75,37 @@ font-size: 1.2rem;
 }
 
 
-
 footer {
-  background-color:#f8f9fa; 
-  padding: 40px 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 10px; 
+    display: flex;
+    flex-wrap: nowrap; 
+    
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
 }
-        
-
+        footer h4 {
+    font-size: 14px; 
+    margin-bottom: 10px;
+}
+footer p {
+    font-size: 12px; 
+}
 
 .info-album {
   display: flex;;
   align-items: center;
   gap: 40px;
   text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
 }
 
 .info-album img{
   width: 30%;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 
@@ -112,12 +117,16 @@ footer {
         margin-bottom: 20px; 
         display: block;  
     }
+    .info-album img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 .comentarios-usuarios{
     width: 30%;
     text-align: center;
-    background: #f8f9fa; 
+    background: #fafafa; 
     padding: 15px;
     box-sizing: border-box;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
@@ -134,10 +143,11 @@ footer {
 .artista {
     width: 30%;
     text-align: center;
-    background: #f8f9fa; 
     padding: 15px;
     box-sizing: border-box;
     box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    background: #ffffff;
+  border-radius: 20px;
 }
 
 
@@ -147,7 +157,7 @@ footer {
     object-fit: cover;
     border-radius: 4px; 
     margin-bottom: 15px;
-   
+   border-radius: 20px;
 
 }
 
